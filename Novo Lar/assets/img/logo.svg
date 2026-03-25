@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Novo Lar – logotipo">
+  <!-- Círculo amarelo de fundo -->
+  <circle cx="50" cy="50" r="50" fill="#F5C842"/>
+
+  <!-- Trevo de 4 folhas em formato de coração -->
+  <!-- Cada folha: coração com ponta voltada para o centro, bolhas voltadas para fora (45°) -->
+  <g transform="translate(50,50)" fill="none" stroke="#2B1E00" stroke-width="2.6"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Caminho base do coração: ponta em (0,0), bolhas se estendem no eixo -Y -->
+    <!-- Folha NE: gira -45° → bolhas vão para NE -->
+    <path d="M0,0 C0,0 -10,-3 -10,-10 C-10,-17 -5,-20 0,-14 C5,-20 10,-17 10,-10 C10,-3 0,0 0,0"
+          transform="rotate(-45)"/>
+
+    <!-- Folha SE: gira 45° → bolhas vão para SE -->
+    <path d="M0,0 C0,0 -10,-3 -10,-10 C-10,-17 -5,-20 0,-14 C5,-20 10,-17 10,-10 C10,-3 0,0 0,0"
+          transform="rotate(45)"/>
+
+    <!-- Folha SW: gira 135° → bolhas vão para SW -->
+    <path d="M0,0 C0,0 -10,-3 -10,-10 C-10,-17 -5,-20 0,-14 C5,-20 10,-17 10,-10 C10,-3 0,0 0,0"
+          transform="rotate(135)"/>
+
+    <!-- Folha NW: gira 225° → bolhas vão para NW -->
+    <path d="M0,0 C0,0 -10,-3 -10,-10 C-10,-17 -5,-20 0,-14 C5,-20 10,-17 10,-10 C10,-3 0,0 0,0"
+          transform="rotate(225)"/>
+
+    <!-- Linhas centrais em X (haste do trevo) -->
+    <line x1="-14" y1="-14" x2="14" y2="14"/>
+    <line x1="14"  y1="-14" x2="-14" y2="14"/>
+  </g>
+</svg>
