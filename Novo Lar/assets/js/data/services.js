@@ -12,7 +12,7 @@ const SERVICES_DATA = [
   {
     icon: '🍽️',
     title: 'Nutrição e Alimentação',
-    description: 'Refeições balanceadas e adaptadas às necessidades de cada residente, preparadas com ingredientes frescos e supervisionadas por nutricionistas.',
+    description: 'Refeições balanceadas, preparadas com ingredientes frescos, baseadas em cardápios nutricionais preparados por uma nutricionista em suas visitas mensais com o fim de garantir uma alimentação equilibrada e saudável.',
   },
   {
     icon: '💊',
@@ -22,7 +22,7 @@ const SERVICES_DATA = [
   {
     icon: '🤸',
     title: 'Fisioterapia e Reabilitação',
-    description: 'Atendimento fisioterapêutico para manutenção e melhora da mobilidade, força e independência dos residentes.',
+    description: 'Atendimento fisioterapêutico para manutenção e melhora da mobilidade, força e independência dos residentes. * valores não inclusos *',
   },
   {
     icon: '🎭',
