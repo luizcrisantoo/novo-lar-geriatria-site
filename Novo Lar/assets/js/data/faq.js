@@ -22,12 +22,12 @@ const FAQ_DATA = [
   },
   {
     question: 'Há médico no local?',
-    answer: 'Contamos com acompanhamento médico regular e equipe de cuidadores 24h. Em casos de emergência, acionamos o serviço médico imediatamente e notificamos a família.',
+    answer: 'Contamos com acompanhamento médico quinzenal e equipe de cuidadores 24h. Em casos de emergência, acionamos o serviço médico imediatamente e notificamos a família para acompanhamento do idoso.',
     keywords: ['médico', 'médica', 'saúde', 'emergência', 'hospital', 'enfermagem', 'enfermeiro'],
   },
   {
     question: 'Como é a alimentação?',
-    answer: 'As refeições são preparadas diariamente com ingredientes frescos, supervisionadas por nutricionistas e adaptadas às necessidades e restrições de cada residente.',
+    answer: 'As refeições são preparadas diariamente com ingredientes frescos, com cardápios nutricionais preparados por profissional da área em visitas mensais, garantindo alimentação equilibrada e saudável.',
     keywords: ['alimentação', 'comida', 'refeição', 'nutrição', 'dieta', 'cardápio'],
   },
   {
@@ -37,8 +37,8 @@ const FAQ_DATA = [
   },
   {
     question: 'Quais atividades são oferecidas?',
-    answer: 'Oferecemos uma programação variada: fisioterapia, terapia ocupacional, música, jogos, artesanato, leitura, passeios e muito mais. O objetivo é manter os residentes ativos e felizes.',
-    keywords: ['atividade', 'lazer', 'recreação', 'fisioterapia', 'terapia', 'ocupacional', 'programa'],
+    answer: 'Oferecemos uma programação variada: música, jogos, leitura e muito mais. O objetivo é manter os residentes ativos e felizes com atividades que estimulam corpo e mente.',
+    keywords: ['atividade', 'lazer', 'recreação', 'programa'],
   },
   {
     question: 'É possível agendar uma visita?',

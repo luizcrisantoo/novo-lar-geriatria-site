@@ -27,13 +27,8 @@ const SERVICES_DATA = [
   {
     icon: '🎭',
     title: 'Atividades de Lazer',
-    description: 'Programação diversificada de atividades recreativas, culturais e de integração social, promovendo alegria e bem-estar.',
-  },
-  {
-    icon: '🧠',
-    title: 'Apoio Psicossocial',
-    description: 'Acompanhamento psicológico e social para os residentes e orientação às famílias, garantindo suporte emocional completo.',
-  },
+    description: 'Música, jogos, leitura e muito mais. O objetivo é manter os residentes ativos e felizes com atividades que estimulam corpo e mente.',
+  }
 ];
 
 window.SERVICES_DATA = SERVICES_DATA;
